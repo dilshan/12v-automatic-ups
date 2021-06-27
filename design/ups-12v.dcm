@@ -1,0 +1,8 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP PIC16F688
+D 14-Pin Flash-Based, 8-Bit CMOS Microcontrollers with nanoWatt Technology
+F http://ww1.microchip.com/downloads/en/devicedoc/41203d.pdf
+$ENDCMP
+#
+#End Doc Library

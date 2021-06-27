@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name ups-12v)(type Legacy)(uri ${KIPRJMOD}/ups-12v.lib)(options "")(descr ""))
+)
