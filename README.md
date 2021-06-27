@@ -8,6 +8,8 @@ The charging circuit of this system builds around using the popular *[LM350](htt
 
 At the online state, the *[LM2576-12](https://www.ti.com/lit/ds/symlink/lm2576.pdf)* switching regulator provides 12V output to the driving system. (in my arrangement, a fiber optic router).
 
+![Block diagram of the UPS system](https://raw.githubusercontent.com/dilshan/12v-automatic-ups/main/resources/12v-ups-block-en.png)
+
 The *[PIC16F688](http://ww1.microchip.com/downloads/en/devicedoc/41203d.pdf)* MCU monitors the AC line and battery to controls the output voltage of the *LM350* regulator and the output relay. The firmware of this MCU written using the *[Microchip XC8](https://www.microchip.com/en-us/development-tools-tools-and-software/mplab-xc-compilers)* compiler, and all the source code and configuration files are available to download in this project repository.
 
 The sealed 12V lead-acid battery is the most crucial component of this unit. 12V, 9Ah battery is the most recommended for this system. At the time of this writing, this battery cost around Rs. 3500 (US$ 17.60), and I bought it from a local online store.
