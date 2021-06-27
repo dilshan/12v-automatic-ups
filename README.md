@@ -2,7 +2,7 @@
 
 This 12V uninterruptible power supply initially designs to drive my fiber optic modem/router. The key reason to build this power supply is to get continuous internet and phone connection during power failures. Core components of this power supply are a constant voltage charger, 12V DC power supply, AC line monitoring unit, and 12V high capacity sealed lead-acid battery. The entire system designs using locally available components.
 
-The charing circuit of this system builds around using the popular *[LM350](https://www.ti.com/lit/ds/snvs772b/snvs772b.pdf)* voltage regulator. This regulator calibrates to provide both 14.4V fast charging and 13.6V trickle charging. Based on the condition of the battery, the MCU will determine the appropriate charging mode.
+The charging circuit of this system builds around using the popular *[LM350](https://www.ti.com/lit/ds/snvs772b/snvs772b.pdf)* voltage regulator. This regulator calibrates to provide both 14.4V fast charging and 13.6V trickle charging. Based on the condition of the battery, the MCU will determine the appropriate charging mode.
 
 At the online state, the *[LM2576-12](https://www.ti.com/lit/ds/symlink/lm2576.pdf)* switching regulator provides 12V output to the driving system. (in my arrangement, a fiber optic router).
 
